@@ -1,7 +1,7 @@
 import CartWidget from "./CartWidget"
 import { Link } from "react-router-dom";
 import myImage from '/src/assets/logo.jpg';
-import "./navbar.scss"
+import "./navbar.css"
 
 const NavBar = () => {
 
@@ -16,7 +16,7 @@ const NavBar = () => {
       </ul>
       
       <Link to="/" className="brand">
-      <img src={myImage} alt="logo Boutique"/>
+      <img className="imagenLogo" src={myImage} alt="logo Boutique"/>
          <p className="title-brand">Ecommerce</p>
       </Link>
    
