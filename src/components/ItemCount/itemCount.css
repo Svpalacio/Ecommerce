@@ -1,0 +1,11 @@
+.agregar{
+    margin-left: 20px;
+}
+.contador-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contador-container p {
+    margin: 0 10px;
+  }
